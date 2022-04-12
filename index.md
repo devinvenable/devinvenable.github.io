@@ -28,6 +28,24 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+### How about a code block?
+```
+import { writable } from "svelte/store";
+
+const messageStore = writable("");
+
+const socket = new WebSocket("ws://localhost:3002");
+
+socket.addEventListener("message", (event) => {
+    messageStore.set(event.data);
+});
+
+export default {
+    subscribe: messageStore.subscribe
+}
+~           
+```
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devinvenable/devinvenable.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
