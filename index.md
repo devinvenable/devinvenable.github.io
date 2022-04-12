@@ -43,7 +43,7 @@ socket.addEventListener("message", (event) => {
 export default {
     subscribe: messageStore.subscribe
 }
-~           
+           
 ```
 
 ### Jekyll Themes
