@@ -1,55 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome readers 
 
-You can use the [editor on GitHub](https://github.com/devinvenable/devinvenable.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+This is my third blog.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have another blog that covers both code and random topics [here](http://devinvenable.blogspot.com/).
 
-### Markdown
+For a number of years I also kept up a mediawiki, which I plan to revive soon and a link will appear here.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I cover my machine learning research with audio and other technical topics [here](https://www.youtube.com/channel/UCVN9mbPYSdV3NPhIrcHcqHQ).
 
-```markdown
-Syntax highlighted code block
+I make music too! I post partially finished works of original music [here](https://soundcloud.com/init-dot-d).
 
-# Header 1
-## Header 2
-### Header 3
+Sometimes a few of them make it to Spotify, which you'll find [here](https://open.spotify.com/album/3r7wDRDBdw7eVoXR2VZyXl).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### How about a code block?
-```javascript
-import { writable } from "svelte/store";
-
-const messageStore = writable("");
-
-const socket = new WebSocket("ws://localhost:3002");
-
-socket.addEventListener("message", (event) => {
-    messageStore.set(event.data);
-});
-
-export default {
-    subscribe: messageStore.subscribe
-}
-           
-```
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devinvenable/devinvenable.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I also enjoy making music videos with Blender and you can find a few [here](https://www.youtube.com/channel/UCxMdeZM8FcPajhtRD_gtD2Q/videos)
