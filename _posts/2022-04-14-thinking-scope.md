@@ -34,7 +34,7 @@ Here is a visual example.
 
 At any given time, the runtime environment (the browser or node if running on a server) is executing a single EC. Certain variables are visible to the EC’s function, and some external variables, which may exist in the local scope of other ECs are also visible. 
 
-* Interestingly, an EC’s running function may have access to a variable defined in another function that was, at one time, pushed onto the call stack and has since been popped. More on this when we discuss Closure. *
+*Interestingly, an EC’s running function may have access to a variable defined in another function that was, at one time, pushed onto the call stack and has since been popped. More on this when we discuss Closure.*
 
 Consider this contrived example:
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-14T12:02:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Devin Venable Code Stuff</title><subtitle>Yet-Another-Blog</subtitle><entry><title type="html">Evolving Stacks</title><link href="http://localhost:4000/2020/01/28/strange-stacks.html" rel="alternate" type="text/html" title="Evolving Stacks" /><published>2020-01-28T21:45:13-06:00</published><updated>2020-01-28T21:45:13-06:00</updated><id>http://localhost:4000/2020/01/28/strange-stacks</id><content type="html" xml:base="http://localhost:4000/2020/01/28/strange-stacks.html">&lt;p&gt;In my work I often encounter legacy websites that were built well over a decade ago. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-14T12:06:20-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Devin Venable Code Stuff</title><subtitle>Yet-Another-Blog</subtitle><entry><title type="html">Evolving Stacks</title><link href="http://localhost:4000/2020/01/28/strange-stacks.html" rel="alternate" type="text/html" title="Evolving Stacks" /><published>2020-01-28T21:45:13-06:00</published><updated>2020-01-28T21:45:13-06:00</updated><id>http://localhost:4000/2020/01/28/strange-stacks</id><content type="html" xml:base="http://localhost:4000/2020/01/28/strange-stacks.html">&lt;p&gt;In my work I often encounter legacy websites that were built well over a decade ago. 
 As I review the source, I see the developers made efforts 
 each year to modernize the codebase.&lt;/p&gt;
 
@@ -111,9 +111,7 @@ to find the equivelant fix using coffeescript so I opted to
 
 &lt;p&gt;At any given time, the runtime environment (the browser or node if running on a server) is executing a single EC. Certain variables are visible to the EC’s function, and some external variables, which may exist in the local scope of other ECs are also visible.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Interestingly, an EC’s running function may have access to a variable defined in another function that was, at one time, pushed onto the call stack and has since been popped. More on this when we discuss Closure. *&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Interestingly, an EC’s running function may have access to a variable defined in another function that was, at one time, pushed onto the call stack and has since been popped. More on this when we discuss Closure.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Consider this contrived example:&lt;/p&gt;
 
