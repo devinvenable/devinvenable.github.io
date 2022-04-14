@@ -2,7 +2,7 @@
 layout: post
 title: "Evolving Stacks"
 subtitle: "When should legacy web sites start from scratch?"
-date: 2020-01-28 23:45:13 -0400
+date: 2022-04-13 23:45:13 -0400
 background: '/img/posts/03.jpg'
 ---
 

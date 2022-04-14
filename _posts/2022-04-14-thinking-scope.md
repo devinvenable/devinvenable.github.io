@@ -2,7 +2,7 @@
 layout: post
 title: "Thinking about Scope in Javascript"
 subtitle: "It helps to understand Execution Context."
-date: 2020-01-28 23:45:13 -0400
+date: 2022-04-14 23:45:13 -0400
 background: '/img/posts/04.jpg'
 link-citations: true
 ---
