@@ -35,7 +35,7 @@ Some teams started migrating from Angular 1, never to completely abandon it.
 
 I've been looking at code that was written in Groovy on Grails, the Ruby on Rails inspired JAVA-based web framework.
 
-Overtime a number of technologies were employed, including:
+Over time a number of technologies were employed, including:
 
 * Java 8 (the language)
 * Tomcat 8 (the webserver)
